@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Idade</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Sua Idade</h1>
+    </header>
+    <section>
+        <div id="msg">
+            <p>Ano de nascimento: 
+                <input type="number" name="=txtano" id="txtano" min="0">
+            </p>
+            <p>
+                <input type="radio" name="radsex" id="male" checked>
+                <label for="male">Masculino</label>
+                <input type="radio" name="radsex" id="female">
+                <label for="female">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+
+        </div>
+        <div id="res">
+            Preencha os campos acima para visualizar o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&#64; luanp_azvd</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
